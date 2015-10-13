@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list_view);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
 
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //setSupportActionBar(mToolbar);
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         adapter = new MessageAdapter(this);
         pref = new PrefManager(getApplicationContext());
